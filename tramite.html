@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | IPSM</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
+
+    <link rel="stylesheet" type="text/css" href="galleria/themes/Azure/galleria.azur.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.3.4/galleria.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-custom navbar-expand-sm justify-content-end">
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link hvr-grow" href="#">
+                    <i class="fa fa-envelope"></i> info@ipsm.mil.ni
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hvr-grow" href="#">
+                    <i class="fa fa-building"></i>
+                    Edificio El Centro II, Sexto Piso, Managua, Nicaragua</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hvr-grow" href="#">
+                    <i class="fa fa-phone"></i> +(505) 2298-0180</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <button type="button" class="btn" onclick="topFunction()" id="myBtn">Regresar al Inicio</button>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <a class="navbar-brand" href="#">
+                <img src="assets\img\Logos\ipsm_logo.svg" class="img-responsive hvr-grow" alt="">
+            </a>
+
+            <ul class="nav nav-tabs nav-justified ml-md-auto " id="menu-principal" style="width:75%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Planes y Programas</a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="asocial.html">Asistencia Social</a>
+                        <a class="dropdown-item" href="fondopen.html">Fondo de Pensiones</a>
+                        <a class="dropdown-item" href="tramite.html">Trámite Guía Oficial</a>                       
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Institución</a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index.html#presentation">Presentación</a>
+                        <a class="dropdown-item" href="index.html#vision">Misión y Visión</a>
+                        <a class="dropdown-item" href="index.html#marco-juridico">Marco y Jurídico</a>
+                        <a class="dropdown-item" href="index.html#junta-directiva">Junta Directiva</a>
+                        <a class="dropdown-item" href="index.html#breve-historia">Historia</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#noticias">Noticias</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>    
+
+    <div class="container">
+        <h1 class="display-4">Guía Oficial para Trámites</h1>
+        <br>
+        <h2>Asistencia y Seguridad Social a los Militares</h2>
+        <br>
+        <h3>Conceptualización y Niveles de Comunicación</h3>
+        <p>De acuerdo a lo establecido en el título III del código militar el sistema de previsión social militar que comprende
+            la seguridad social y el mejoramiento social y económico de los oficiales, clases y soldados del ejército, su
+            ejecución y administración esta a cargo del Instituto de Previsión Social Militar (IPSM). </p>
+        <p>Para garantizar el cumplimiento de lo establecido en el título tercero la Dirección de Personal y Cuadros, certificará
+            el tiempo de servicio de un afiliado, estableciendo las fechas oficiales de ingreso, ascensos, promociones en
+            cargo, cambios de haberes y demás aspectos necesarios para la adecuada entrega de los beneficios del plan de
+            pensión de conformidad a los datos de la orden de alta, ascenso y nombramiento, etc. </p>
+        <p>La Dirección de Personal y Cuadros lleva el registro de beneficiarios de los militares afiliados al IPSM y tramitará
+            ante el mismo los cambios que sean solicitados por los militares a través de los órganos de personal y cuadros.
+        </p>
+        <p>De conformidad con la información presentada por la Direccion de Personal y Cuadros el IPSM, actualizará la relación
+            de beneficiarios para efectos del Fondo de Pensión y del seguro colectivo de vida. </p>
+        <p>El IPSM recepcionará la documentación oficial que certifique las altas, licenciamiento, pase a retiro y bajas del
+            personal afiliado o por afiliarse al IPSM. </p>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">Trámite en caso de muerte</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>La unidad militar reportará el suceso en un plazo no mayor de 7 días y en 30 días remitirá al IPSM
+                            la documentación establecida a través de la DPC.</p>
+                        <ol type="a">
+                            <li>Certificado de defunción del registro del estado civil de las personas.</li>
+                            <li>Dictamen medico legal que indique la muerte del oficial Partida de nacimiento del afiliado y
+                                del beneficiario.</li>
+                            <li>Reporte oficial del Jefe de Unidad Militar, notificando la muerte del militar, así como los hechos
+                                o misiones militares en la que se produjo.</li>
+                            <li>Reporte de las autoridades competentes cuando la muerte se produce por accidente de tránsito,
+                                accidente aéreo, accidente naval u otros hechos distintos a los militares.
+                            </li>
+                            <li>Ficha personal donde se consigna quien es el beneficiario Poder de guardador legal, cuando el
+                                beneficiario es menor de edad.
+                            </li>
+                            <li>Constancia de la Dirección de Personal y Cuadros. Declaración jurada de dos oficiales activos
+                                del Ejército de Nicaragua, uno de los cuales debe poseer un rango de Teniente Coronel o su
+                                equivalente, describiendo las circunstancias de la muerte del oficial y confirmando que todos
+                                los documentos que apoyan son válidos y verdaderos.
+                            </li>
+                        </ol>
+
+                        <p>Una vez recepcionada la documentación, el IPSM procede al trámite de indemnización correspondiente.</p>
+                        <p>Al momento que el IPSM recibe los fondos, cita a los beneficiarios por medio de la DPC, para la entrega
+                            de la indemnización en las oficinas del IPSM donde firma el finiquito para cada caso y exime
+                            de toda obligación al IPSM.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse2">Trámite en Caso de Invalidez</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>La Dirección de Personal y Cuadros, presentará al IPSM los documentos siguientes.</p>
+                        <ol type="a">
+                            <li>Certificación médica emitida por el Cuerpo Medico Militar.</li>
+                            <li>Reporte oficial de la unidad militar, notificando la incapacidad total permanente del militar
+                                así como los hechos y/o misiones militares en que se originó.</li>
+                            <li>Reporte de las autoridades competentes cuando la incapacidad por accidente o hechos distintos
+                                a los militares.</li>
+                        </ol>
+
+                        <p>Una vez recepcionada la documentación, el IPSM procede al trámite de indemnización correspondiente.</p>
+
+                        <p>Al momento que el IPSM recibe los fondos, cita a los beneficiarios por medio de la DPC, para la entrega
+                            de la indemnización en las oficinas del IPSM donde firma el finiquito para cada caso y exime
+                            de toda obligación al IPSM.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse3">Trámite paso a Retiro</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Para el caso de los oficiales y Sub-Oficiales con grado militar, la DPC presentará trimestralmente
+                            la relación de militares que pasan a retiro, y se realizan los trámites correspondientes para
+                            la entrega de los fondos para cada caso.</p>
+                        <p>A los militares activos con menos del tiempo establecido para el paso a retiro se le hace entrega
+                            del acumulado en el fondo de contribución definida únicamente.</p>
+                        <p>A los militares que cumplen con los parámetros de tiempo para el paso a retiro, se les entrega el
+                            acumulado en el fondo de contribución definida y mensualmente retirarán en el IPSM su pensión
+                            que en cada caso corresponde.</p>
+                        <p>Los oficiales pensionados tienen acceso al sistema de préstamo del Banco de Finanzas, en base a su
+                            capacidad de pago (Pensión Mensual).</p>
+                        <p>A los militares pensionados se les tramita carnet de retirado, el costo es asumido por el IPSM y
+                            la reposición a cuenta del militar retirado.</p>
+                        <p>Los pensionados con su documentación oficial de retirado, tramitan en la tienda militar su tarjeta
+                            de acceso a la misma.</p>
+                        <p>En el IPSM llena su expediente de militar retirado, actualizándose cuando el retirado estime conveniente.</p>
+                        <p>Si al momento de su retiro, tiene un hijo en el programa de asistencia educativa, continua siendo
+                            financiado hasta que concluya su carrera universitaria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse4">Guía para trámite préstamo calificado</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <h2>Trámite Préstamo Calificado</h2>
+                        <p>Para acceder al programa de préstamos no existe restricción alguna, o sea que cualquier oficial con
+                            grado de Teniente Primero a General de Brigada o los oficiales pensionados tienen acceso al sistema
+                            de préstamo del Banco de Finanzas, en base a su capacidad de pago ( Pensión Mensual en el caso
+                            de los pensionados), las solicitudes se retiran en el Banco de Finanzas.</p>
+                        <p>El Instituto de Previsión Social Militar garantiza que se cumpla con los parámetros establecidos
+                            según el convenio BDF-IPSM .</p>
+
+                        <h2>REQUISITO DE CUMPLIMIENTO EN CONVENIO BDF-IPSM</h2>
+
+                        <h3>Niveles de acceso al programa</h3>
+
+                        <ul>
+                            <li>Teniente Primero</li>
+                            <li>Capitanes</li>
+                            <li>Mayores</li>
+                            <li>Teniente Coronel</li>
+                            <li>Coronel</li>
+                            <li>General de Brigada</li>
+                        </ul>
+
+                        <p>Plazos establecidos para el crédito</p>
+
+                        <ul>
+                            <li>9 meses para capital de trabajo</li>
+                            <li>18 meses para inversión</li>
+                            <li>20 meses para mejoras en vivienda</li>
+                            <li>36 meses para vehículo nuevo</li>
+                        </ul>
+
+                        <p>Procedimiento: En la gerencia de créditos personales del Banco de Finanzas , existe un oficial que
+                            es el encargado de atender a los oficiales del ejército que solicitan atención , los prestamos
+                            a otorgarse , estarán sujetos al siguiente procedimiento: </p>
+
+                        <ul type="1">
+                            <li>El oficial deberá acudir a la oficina de su preferencia del banco, llenar y presentar la respectiva
+                                solicitud de crédito</li>
+                            <li>Recibida la solicitud, el banco en coordinación con el IPSM, hará la evaluación del caso</li>
+                            <li>Si la solicitud es aprobada, el oficial deberá suscribir con el banco, contrato de préstamo,
+                                en el cual se estipula el monto, interés, plazo, forma de pago y demás condiciones del préstamo,
+                                y se constituirán las garantías que el banco considere pertinentes</li>
+                            <li> Caso que el oficial no cumpla con las obligaciones contraídas en el contrato de préstamos, el
+                                banco podrá dar por vencido el plazo del mismo y exigir el pago inmediato del saldo deudor</li>
+                            <li>Cada oficial adjudicatario de un préstamo cederá al banco, en todos los casos, el seguro de vida
+                                y accidente que tiene con Metropolitana Compañía de Seguros, S.A.</li>
+                        </ul>
+
+                        <h2>PRÉSTAMOS PARA OFICIALES PENSIONADOS DEL EJÉRCITO DE NICARAGUA</h2>
+
+                        <p>Este tipo de crédito está dirigido para los oficiales retirados del Ejército de Nicaragua y estará
+                            garantizado, únicamente, por el valor de la pensión mensual que cada uno de los oficiales recibe.
+                            <br>Los créditos serán otorgados para :
+                            <br>
+                        </p>
+
+                        <ul>
+                            <li>Gastos Personales</li>
+                            <li>Consolidación de deudas</li>
+                            <li>Compra y mantenimiento de vivienda</li>
+                            <li>Inversión</li>
+                        </ul>
+
+                        <h3>Políticas</h3>
+
+                        <ul type="1">
+                            <li>Se otorgarán créditos cuyos montos estarán determinados por el Banco de Finanzas, S.A. y dependerán
+                                exclusivamente del monto de pensión mensual que recibe cada oficial.</li>
+                            <li>Los créditos serán desembolsados sólamente en córdobas con mantenimiento de valor</li>
+                            <li>Los plazos para gastos personales y consolidación de deudas serán de 12 hasta 36 meses</li>
+                            <li> Los pagos serán efectuados los días 10 de cada mes en cuotas niveladas y consecutivas que incluyen
+                                pago de capital e intereses.</li>
+                            <li>Se efectuará bloqueo del 10% del crédito el cual deberá permanecer en la cuenta de ahorro aperturada
+                                hasta la cancelación del mismo.</li>
+                            <li>Los gastos a cobrarse en este tipo de crédito serán los siguientes:
+                                <ul>
+                                    <li>Seguro de Vida o Desgravamen 0.5% por millar</li>
+                                    <li>Gastos Legales 0.5%</li>
+                                    <li>Comisión 1 % sobre monto</li>
+                                </ul>
+                            </li>
+                            <li> Las tasas de interés a cobrarse dependerán del plazo del préstamo para lo cual serán utilizados
+                                los siguientes parámetros:
+                                <ul>
+                                    <li>Hasta 12 meses 16% anual sobre saldo</li>
+                                    <li>Hasta 1 8 meses 17% anual sobre saldo</li>
+                                    <li>Hasta 24 meses 18% anual sobre saldo</li>
+                                    <li>Hasta 36 meses 19% anual sobre saldo</li>
+                                </ul>
+                            </li>
+                            <p>Para los créditos a utilizarse para inversión productiva, compra, remodelación y mejoramiento
+                                de vivienda serán otorgados los plazos y tasas de interés siguientes:</p>
+
+                            <li>Hasta 48 meses 16% anual sobre saldo </li>
+                            <li> Hasta 60 meses 18% anual sobre saldo</li>
+                        </ul>
+
+                        <h3>Requisitos</h3>
+
+                        <ul>
+                            <li>Llenar solicitud de crédito debidamente</li>
+                            <li>Constancia emitida por el Instituto de Previsión Social Militar - Ejército de Nicaragua indicando
+                                el monto mensual de pensión que recibe el oficial.</li>
+                            <li>Copia de la Orden de Licenciamiento emitida por el Instituto de Previsión Social Militar.</li>
+                            <li>Fotocopia de identificación del solicitante.</li>
+                            <li> Aperturar cuenta de ahorro básica en córdobas.</li>
+                        </ul>
+
+                        <h3>Restricciones</h3>
+                        <p>No podrán aplicar a este préstamo las personas mayores de 60 años, las cuales no aplican al seguro
+                            de vida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse5">Trámites Programa de Asistencia Educativa</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <h3>Trámites Programa de Asistencia Educativa</h3>
+                        <p>El Instituto de Previsión Social Militar ha dado inicio el VI Ciclo del Plan de Asistencia Educativa
+                            Año 2003/2004. Este programa está orientado a los hijos de los oficiales en servicio militar
+                            activo y que reúnan las características siguientes:</p>
+                        <ul>
+                            <li>Ser menor de 21 años de edad.</li>
+                            <li>Haber cursado la secundaria de manera consecutiva, salvo caso de fuerza mayor</li>
+                            <li>Haber tenido calificaciones de buen alumno, en los últimos tres años de secundaria.</li>
+                            <li>Mantener promedio académico acumulado no menor de 75 durante sus estudios universitarios (escala
+                                de 0 a 100).</li>
+                            <li>No cambiar de universidad.</li>
+                            <li>Cursar de forma consecutiva, salvo fuerza mayor, todos los semestres de la carrera universitaria.</li>
+                            <li>No cambiar de carrera.</li>
+                            <li>Presentar un informe evaluativo semestral satisfactorio de la universidad (calificaciones, constancia
+                                de ser alumno activo).</li>
+                            <li>Obligarse a pagar el valor de la asistencia educativa recibida, capital más intereses a partir
+                                del sexto mes después de concluido el último año de estudios universitarios.</li>
+                            <li>Obligarse a pagar los fondos recibidos con sus correspondientes intereses dentro de un plazo
+                                máximo de cinco (5) años, en cuotas iguales y mensuales.</li>
+                            <li>En caso de que el beneficiario abandone sus estudios sin causa justificada la obligación de rembolsar
+                                los fondos recibidos comenzará a partir de la fecha de vencimiento del correspondiente pagaré.</li>
+                        </ul>
+                        <p>Toda solicitud debe ser acompañada de los documentos abajo descritos:</p>
+
+                        <ul>
+                            <li>Partida de Nacimiento</li>
+                            <li>Constancia de que el aspirante forma parte del núcleo familiar del oficial emitida por la Dirección
+                                de Personal y Cuadros.</li>
+                            <li>Certificado de nota de tercer, cuarto y quinto año de secundaria para los de primer ingreso a
+                                la Universidad.</li>
+                            <li>Certificado de notas de la Universidad para los que ya están cursando carrera universitaria.</li>
+                            <li>Pro forma de aranceles de: matrícula, mensualidad, carnet</li>
+                        </ul>
+                        <p>Si usted tiene un hijo(a) que está terminando sus estudios de bachillerato o que ya cursa estudios
+                            universitarios y tiene interés en participar en el Programa de Asistencia Educativa, le solicitamos
+                            su atención al siguiente calendario de actividades.</p>
+
+                        <ul>
+                            <li>17 de noviembre del 2003 – última fecha para recibir solicitudes.</li>
+                            <li>10 de diciembre del 2003 - última fecha para recibir la documentación.</li>
+                            <li>En la primera quincena de enero del 2004 se comunicará a los participantes la aceptación al programa.</li>
+                        </ul>
+                        <p>Les recordamos que el proceso de prematricula en los Centros Universitarios ha dado inicio. Los participantes
+                            deberán prematricularse conforme su decisión. Los costos de prematricula serán reembolsados a
+                            los participantes que sean aceptados en el Programa de Asistencia Educativa.</p>
+
+                        <p>Para mayor información presentarse en las oficinas del IPSM o llamar a los teléfonos 2668881 -3.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse6">Preguntas y Respuestas</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Para mayor información puede escribirnos directamente a
+                            <a href="mailto:despacho.ejecutivo@ipsm.mil.ni">despacho.ejecutivo@ipsm.mil.ni</a>
+                        </p>
+
+                        <h4>Respuestas a Preguntas Frecuentes</h4>
+
+                        <p>
+                            <b>¿Qué es el IPSM?</b>
+                        </p>
+                        <p>El IPSM es la institución encargada de la asistencia y mejoramiento social de los miembros del Ejército
+                            y de sus familiares, mediante el establecimiento y operación de diferentes planes de ahorro y
+                            pensiones complementarias, programas para préstamos hipotecarios para vivienda, programas para
+                            préstamos personales, y cualquier otro plan de asistencia y mejoramiento social que autorice
+                            la administración.</p>
+                        <br>
+
+                        <p>
+                            <b>¿Cómo puedo obtener apoyo para estudiar?</b>
+                        </p>
+
+                        <p>Los oficiales pueden obtener apoyo para realizar estudios superiores en diferentes universidades.
+                            Consulte la guía oficial de trámite para la gestión de la asistencia educativa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer" id="footer">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-md-8">
+                    <img class="img-responsive hvr-pulse" src="assets/img/logos/ipsm_logo_claro.svg" width="150px" height="100px" id="footer-ipsm-logo">
+                    <div class="row" id="info-row">
+                        <div class="col-md-3">
+                            <i class="glyphicon glyphicon-map-marker hvr-pulse"></i>
+                            <p>De la Rotonda el Periodista 400 Mts al Norte, Edificio el Centro II, Piso 6 </p>
+                            <br>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-phone hvr-pulse"></i>
+                            <p>2298-0180</p>
+                            <br>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-clock-o hvr-pulse"></i>
+                            <p>Lunes - Viernes
+                                <br> 07:30 am - 12:00 md
+                                <br> 13:00 pm - 17:30 pm</p>
+                            <br>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-envelope hvr-pulse"></i>
+                            <p>info@ipsm.mil.ni</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div id="map"></div>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmo04hK4tLCStrzVmfnKrkwqe67k_lEoQ&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+
+            var body = $("body, html");
+            var top = body.scrollTop() // Get position of the body
+            if (top != 0) {
+                body.animate({
+                    scrollTop: 0
+                }, 500, function () {});
+            }
+
+            /* document.body.scrollTop = 0;            
+            document.documentElement.scrollTop = 0; */
+        }
+    </script>
+
+
+    <!-- <script>
+    (function () {
+        Galleria.loadTheme("galleria/themes/Azure/galleria.azur.min.js");
+        Galleria.run('.galleria');
+    }());
+</script> -->
+</body>
+
+</html>
