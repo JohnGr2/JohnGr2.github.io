@@ -41,7 +41,7 @@ body {
 /*Barra principal de contacto*/
 
 .navbar-custom {
-    background-color: #a8bf34;
+    background-color: #A8BF34;
 }
 
 /* change the brand and text color */
@@ -71,7 +71,7 @@ body {
 /*Logo IPSM Navbar principal*/
 
 .navbar-brand img {
-    height: 80px;
+    height: 95px;
 }
 
 #menu-principal a {
@@ -182,6 +182,10 @@ img#presentacion.img-responsive {
 
 #marco-juridico ul {
     list-style-type: none;
+}
+
+#marco-juridico a{
+    color: #EEB238;
 }
 
 /*Junta Directiva*/
@@ -805,13 +809,13 @@ h5 {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-    color: black;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#178386' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");        
+    background-size: 25px !important;
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-    color: black;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#178386' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-size: 25px !important;
 }
 
 .carousel-inner {
@@ -981,4 +985,35 @@ div#map {
 
 #beneficios p{
     text-align: center;
+}
+
+.btn-info{
+    color: white;
+    background-color: #A8BF34;
+    border: none;
+}
+
+.btn-info:hover{
+    background-color: #A8BF34;
+}
+
+.noticias p{    
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 13;
+    box-orient: vertical;
+    -webkit-line-clamp: 13;
+    -webkit-box-orient: vertical;  
+}
+
+#news img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 75%;
+}
+
+#news p{
+    text-align: justify;
 }

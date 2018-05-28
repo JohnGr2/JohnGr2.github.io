@@ -175,16 +175,16 @@
         <div class="wrap">
             <div class="row">
                 <div class="col-md-8">
-                    <img class="img-responsive hvr-pulse" src="assets/img/logos/ipsm_logo_claro.svg" width="150px" height="100px" id="footer-ipsm-logo">
+                    <img class="img-responsive hvr-pulse" src="assets\img\Logos\ipsm_logo_claro.svg" width="150px" height="100px" id="footer-ipsm-logo">
                     <div class="row" id="info-row">
                         <div class="col-md-3">
-                            <i class="glyphicon glyphicon-map-marker hvr-pulse"></i>
-                            <p>De la Rotonda el Periodista 400 Mts al Norte, Edificio el Centro II, Piso 6 </p>
+                            <i class="fa fa-map-marker hvr-grow" aria-hidden="true"></i>
+                            <p> Edificio El Centro II, 6to Piso, Managua, Nicaragua</p>
                             <br>
                         </div>
                         <div class="col-md-3">
                             <i class="fa fa-phone hvr-pulse"></i>
-                            <p>2298-0180</p>
+                            <p>+(505) 2298-0180</p>
                             <br>
                         </div>
                         <div class="col-md-3">
@@ -209,51 +209,42 @@
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-<script src="assets/js/main.js"></script>
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets\smooth-scroll-master\dist\js\smooth-scroll.js"></script>
 
-<script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
+    <script>
+        //var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-    }
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-
-        var body = $("body, html");
-        var top = body.scrollTop() // Get position of the body
-        if (top != 0) {
-            body.animate({
-                scrollTop: 0
-            }, 500, function () {});
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
         }
 
-        /* document.body.scrollTop = 0;            
-        document.documentElement.scrollTop = 0; */  
-    }
-</script>
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 
-<!-- <script>
-    (function () {
-        Galleria.loadTheme("galleria/themes/Azure/galleria.azur.min.js");
-        Galleria.run('.galleria');
-    }());
-</script> -->
 </body>
 
 </html>
